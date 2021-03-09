@@ -1,0 +1,53 @@
+html {
+  background-color: #ededed;
+  font-family: "Mada", "Sans Serif";
+  border: 2px solid black;
+}
+
+#background-logo {
+  position: relative;
+}
+#background-logo img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  top: -95px;
+  opacity: .15;
+  width: 330px;
+}
+
+header img {
+   width: 90px;
+}
+
+.subheading {
+  color: rgb(226, 28, 35);
+  font-weight: bold;
+}
+
+.cities {
+  padding: 20px; 
+  line-height: 25px;
+}
+
+ul, li {
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  padding: 10px 10px 20px 20px;  
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 5%;
+}
+
+header, h1, p, .cities, footer {
+  padding-left: 5%;
+  padding-right: 5%;
+}
